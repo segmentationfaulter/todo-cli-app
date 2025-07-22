@@ -8,8 +8,9 @@ import (
 )
 
 var rootCmd = (&cobra.Command{
-	Use:   "tasks",
-	Short: "A todo app which runs in terminal",
+	Use:     "tasks",
+	Short:   "A todo app which runs in terminal",
+	Version: "1.0.0",
 })
 
 func Execute() {
